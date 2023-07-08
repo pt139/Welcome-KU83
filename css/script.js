@@ -2282,7 +2282,7 @@ const body = document.querySelector("body");
 const a = document.createElement("a");
 a.style.position = "absolute";
 a.style.bottom = "10%";
-a.style.color = "rgb(65, 20, 10)";
+a.style.color = "rgb(43, 12, 6)";
 a.style.textDecoration = "none";
 a.innerText = "CLICK ME!";
 a.setAttribute('target', '_blank');
