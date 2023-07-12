@@ -5,11 +5,30 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.link1 {
-    position: absolute;
-    left: 45%;
-    top: 50%;
+a {
     text-decoration: none;
+}
+
+.link1 {
     font-size: 40px;
 }
 
+.container {
+    position: absolute;
+    left: 36.5%;
+    top: 45%;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container div,a {
+    flex: 1;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.container div a {
+    font-size: 30px;
+    color: rgb(206, 0, 188);
+}
